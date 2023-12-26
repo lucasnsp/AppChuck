@@ -18,6 +18,7 @@
 		34FBA58F2983DCAD00021E82 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FBA58D2983DCAD00021E82 /* CategoryTableViewCell.swift */; };
 		34FBA5902983DCAD00021E82 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FBA58E2983DCAD00021E82 /* CategoryTableViewCell.xib */; };
 		34FBA5962983E16500021E82 /* ChuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FBA5952983E16500021E82 /* ChuckTests.swift */; };
+		461668892B29E36300C7B150 /* HomeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461668882B29E36300C7B150 /* HomeServiceTests.swift */; };
 		A7555771451D26B9E945E33C /* Pods_Chuck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE658B249626CC40C5E80CB /* Pods_Chuck.framework */; };
 		B62DB7385BA7BC5804427B36 /* Pods_ChuckTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF9DFE741631A26A14E7987 /* Pods_ChuckTests.framework */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		34FBA58E2983DCAD00021E82 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
 		34FBA5952983E16500021E82 /* ChuckTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChuckTests.swift; sourceTree = "<group>"; };
 		3FF9DFE741631A26A14E7987 /* Pods_ChuckTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		461668882B29E36300C7B150 /* HomeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceTests.swift; sourceTree = "<group>"; };
 		5AE658B249626CC40C5E80CB /* Pods_Chuck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chuck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1E7E8D3DCA3E9E4C853059 /* Pods-Chuck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chuck.debug.xcconfig"; path = "Target Support Files/Pods-Chuck/Pods-Chuck.debug.xcconfig"; sourceTree = "<group>"; };
 		961A320D7D26F8BCDB6C5D29 /* Pods-Chuck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chuck.release.xcconfig"; path = "Target Support Files/Pods-Chuck/Pods-Chuck.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				34FBA5952983E16500021E82 /* ChuckTests.swift */,
+				461668882B29E36300C7B150 /* HomeServiceTests.swift */,
 			);
 			path = ChuckTests;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461668892B29E36300C7B150 /* HomeServiceTests.swift in Sources */,
 				34FBA5962983E16500021E82 /* ChuckTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +515,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WX9FH8392;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chuck/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -542,6 +547,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WX9FH8392;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chuck/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -571,8 +577,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WX9FH8392;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
@@ -591,8 +599,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WX9FH8392;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
