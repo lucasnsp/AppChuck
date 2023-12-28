@@ -19,6 +19,7 @@
 		34FBA5902983DCAD00021E82 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FBA58E2983DCAD00021E82 /* CategoryTableViewCell.xib */; };
 		34FBA5962983E16500021E82 /* ChuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FBA5952983E16500021E82 /* ChuckTests.swift */; };
 		461668892B29E36300C7B150 /* HomeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461668882B29E36300C7B150 /* HomeServiceTests.swift */; };
+		46777BD92B3DBBB400D9F1EA /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46777BD82B3DBBB400D9F1EA /* HomeViewControllerTests.swift */; };
 		46947B712B3B0FC200EF7ED9 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46947B702B3B0FC200EF7ED9 /* HomeViewModelTests.swift */; };
 		A7555771451D26B9E945E33C /* Pods_Chuck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE658B249626CC40C5E80CB /* Pods_Chuck.framework */; };
 		B62DB7385BA7BC5804427B36 /* Pods_ChuckTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF9DFE741631A26A14E7987 /* Pods_ChuckTests.framework */; };
@@ -51,6 +52,7 @@
 		34FBA5952983E16500021E82 /* ChuckTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChuckTests.swift; sourceTree = "<group>"; };
 		3FF9DFE741631A26A14E7987 /* Pods_ChuckTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		461668882B29E36300C7B150 /* HomeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceTests.swift; sourceTree = "<group>"; };
+		46777BD82B3DBBB400D9F1EA /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
 		46947B702B3B0FC200EF7ED9 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 		5AE658B249626CC40C5E80CB /* Pods_Chuck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chuck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1E7E8D3DCA3E9E4C853059 /* Pods-Chuck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chuck.debug.xcconfig"; path = "Target Support Files/Pods-Chuck/Pods-Chuck.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				34FBA5952983E16500021E82 /* ChuckTests.swift */,
 				461668882B29E36300C7B150 /* HomeServiceTests.swift */,
 				46947B702B3B0FC200EF7ED9 /* HomeViewModelTests.swift */,
+				46777BD82B3DBBB400D9F1EA /* HomeViewControllerTests.swift */,
 			);
 			path = ChuckTests;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				461668892B29E36300C7B150 /* HomeServiceTests.swift in Sources */,
 				34FBA5962983E16500021E82 /* ChuckTests.swift in Sources */,
 				46947B712B3B0FC200EF7ED9 /* HomeViewModelTests.swift in Sources */,
+				46777BD92B3DBBB400D9F1EA /* HomeViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
