@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -29,8 +29,8 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController: HomeViewModelProtocol {
- 
+extension HomeViewController: HomeViewModelProtocol {
+
     func success() {
         configTableView()
     }
@@ -40,9 +40,9 @@ extension ViewController: HomeViewModelProtocol {
     }
 }
 
-extension ViewController: UITableViewDelegate {  }
+extension HomeViewController: UITableViewDelegate {  }
 
-extension ViewController: UITableViewDataSource {
+extension HomeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.numberOfRowsInSection
     }
